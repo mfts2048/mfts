@@ -1,6 +1,6 @@
 {
-  "name": "gunners",
-  "version": "1.0.0",
+  "name": "mfts",
+  "version": "0.1.0",
   "description": "Reduce your workload",
   "types": "./dist/index.d.ts",
   "main": "./dist/index.cjs.js",
@@ -8,23 +8,23 @@
   "scripts": {
     "dev": "ts-node ./src/index.ts",
     "test": "vitest",
-    "rollup": "rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript"
+    "build": "rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yxswy/gunners.git"
+    "url": "git+https://github.com/yxswy/mfts.git"
   },
   "keywords": [
-    "gunners",
+    "mfts",
     "tools",
     "workload"
   ],
   "author": "18267094443@163.com",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yxswy/gunners/issues"
+    "url": "https://github.com/yxswy/mfts/issues"
   },
-  "homepage": "https://github.com/yxswy/gunners#readme",
+  "homepage": "https://github.com/yxswy/mfts#readme",
   "devDependencies": {
     "@rollup/plugin-typescript": "^10.0.1",
     "rollup-plugin-dts": "^5.0.0",
