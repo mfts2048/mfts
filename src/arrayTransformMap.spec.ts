@@ -15,7 +15,7 @@ const arr = [
 const { get } = arrayTransformMap(arr, "id")
 
 describe("utils/index", () => {
-	test("transformNumber", () => {
+	test("arrayTransformMap", () => {
 		expect(get("1,2")).toEqual([
 			{ id: "1", name: "11" },
 			{ id: "2", name: "11" },

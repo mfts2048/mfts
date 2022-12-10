@@ -39,14 +39,13 @@ export function useCircularArray(arr: number[], groupNumber: number) {
 
 /**
  * 环形数组
- * 1. 根据索引取值
+ * 1. 根据索引取值（支持负数）
  * 2. 将索引按照数据的长度取余后进行查询数据
  */
-function getItemByRemainderIndex(arr: any[], i: number) {
+function getItemByRemainderIndex(arr: unknown[], i: number) {
 	if (typeof i !== "number") return undefined
 
 	const len = arr.length
-
 	if (len === 0) return undefined
 
 	i = i % len

@@ -1,8 +1,8 @@
-import { useCircularArray } from "./CircularArray/index"
+import { useCircularArray } from "./circularArray"
 import { transformArray, transformNumber, transformString } from "./transform"
-import { arrayTransformMap } from "./ArrayTransformMap/index"
+import { arrayTransformMap } from "./arrayTransformMap"
 
-export * from "./ArrayTransformMap/index"
+export * from "./arrayTransformMap"
 
 export {
 	useCircularArray,
