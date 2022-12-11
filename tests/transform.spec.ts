@@ -1,5 +1,5 @@
 import { describe, test, expect } from "vitest"
-import { transformNumber, transformArray, transformString } from "./transform"
+import { transformNumber, transformArray, transformString } from "../src/index"
 
 describe("utils/index", () => {
 	test("transformNumber", () => {

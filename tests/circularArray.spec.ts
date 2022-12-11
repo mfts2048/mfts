@@ -1,5 +1,5 @@
 import { describe, test, expect } from "vitest"
-import { useCircularArray } from "./index"
+import { useCircularArray } from "../src/index"
 
 const testDataSource1 = [0, 1, 2, 3, 4, 5, 6, 7, 8]
 const { getGroupByIndex, getItemByRemainderIndex } = useCircularArray(

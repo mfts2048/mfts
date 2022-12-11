@@ -1,5 +1,5 @@
-import { arrayTransformMap } from "./index"
 import { describe, test, expect } from "vitest"
+import { arrayTransformMap } from "../src/index"
 
 const arr = [
 	{
